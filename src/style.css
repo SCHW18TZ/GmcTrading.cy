@@ -3,3 +3,9 @@
     max-width: 10%;
     width: 1px;
 }
+
+.logo-name{
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'poppins';
+}

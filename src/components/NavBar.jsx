@@ -7,7 +7,7 @@ const NavBar = () => {
   const [toggle, setToggle] = useState(false)
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-      <h1 className={`font-poppins font-normal cursor-pointer text-[16px]  text-white`}>GmcTrading.cy</h1>
+      <h1 className={`font-poppins font-normal cursor-pointer text-[16px] logo-name  text-white`}>GmcTrading.cy</h1>
       {/* <img src={logov} alt="hoobank"  className='nav-logo w-[124px] h-[32px]'  /> */}
       <ul className='list-none sm:flex hidden justify-end items-center flxe-1'>
         {
