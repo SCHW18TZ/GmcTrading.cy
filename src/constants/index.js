@@ -78,14 +78,10 @@ export const stats = [
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Profit generated",
+    value: "40 Million+",
   },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
-  },
+  
 ];
 
 export const footerLinks = [
@@ -94,23 +90,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+        link: "",
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "",
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: "",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "",
       },
     ],
   },

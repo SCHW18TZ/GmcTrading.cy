@@ -1,12 +1,14 @@
 import React,{useState} from 'react'
-import {close, logo, menu} from '../assets'
+import {close,  menu} from '../assets'
+import logov from '../assets/logov.png'
 import {navLinks} from '../constants'
-
+import '../style.css'
 const NavBar = () => {
   const [toggle, setToggle] = useState(false)
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-      <img src={logo} alt="hoobank" className='w-[124px] h-[32px]' />
+      <h1 className={`font-poppins font-normal cursor-pointer text-[16px]  text-white`}>GmcTrading.cy</h1>
+      {/* <img src={logov} alt="hoobank"  className='nav-logo w-[124px] h-[32px]'  /> */}
       <ul className='list-none sm:flex hidden justify-end items-center flxe-1'>
         {
           navLinks.map((el, index)=>{
